@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #5f9ea08d;
+    font-family: 'Poppins', sans-serif;
+}
+
+.radio-group #Sip,#Lumpsum {
+    width: 20px;
+    height: 20px;
+    color: rgb(215, 16, 16);
+}
+
+.radio-group {
+    font-weight: 600;
+    color: rgb(3, 31, 84);
+    padding-bottom: 10px;
+}
+
+.sip-calculate {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sip-calculate h1 {
+    color: rgb(229, 5, 5);
+    margin: 20px;
+    font-size: 39px;
+}
+
+.box1 {
+    border-radius: 10px;
+    background-color: white;
+    margin: 1px 30px 15px 30px;
+    padding: 10px;
+}
+
+.box1 label {
+    font-size: 20px;
+}
+
+.box1 input {
+    padding: 10px;
+    padding-left: 20px;
+    font-size: 15px;
+    border-radius: 5px;
+    margin: 18px;
+    border: 2px solid rgb(212, 211, 211);
+    width: 180px;
+}
+
+.btn {
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 16px;
+    margin-top: 19px;
+    margin-bottom: 10px;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    cursor: pointer;
+    color: white;
+    border: 1px solid rgb(212, 211, 211);
+    background-color: rgb(3, 31, 84);
+}
+
+.btn:hover {
+    background-color: rgba(3, 31, 84, 0.903);
+    transition: .5s ease-in;
+}
+
+.box2 {
+    border-radius: 10px;
+    margin: 1px 30px 30px 30px;
+    background-color: #ffffff;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.box2 h6 {
+    padding: 10px;
+    font-size: 19px;
+}
+
+@media(min-width:770px) {
+
+    .box1,
+    .box2 {
+        margin: 1px 200px 15px 200px;
+        padding: 20px;
+    }
+}

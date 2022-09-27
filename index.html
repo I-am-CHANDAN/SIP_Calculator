@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>SIP Calculator</title>
+</head>
+
+<body>
+    <section class="sip-calculate">
+        <h1>SIP <span>Calculator</span></h1>
+        <div class="box1">
+            <div class="radio-group">
+                <input type="radio" name="option" id="Sip" value="SIP" checked />
+                <label for="SIP">SIP</label>
+                <input type="radio" name="option" id="Lumpsum" value="Lumpsum" />
+                <label for="Lumpsum">Lumpsum</label>
+            </div>
+
+            <label for="">Monthly Investment : </label>
+            <input type="text" placeholder="2000 ₹" class="amount"><br>
+
+            <label for="">Rate of Return(p.a) : </label>
+            <input type="text" placeholder="15 %" class="rate"><br>
+
+            <label for="">Time Period (Yrs) : </label>
+            <input type="text" placeholder="5  Years" class="Years"><br>
+
+            <button onclick="calculateResult()" class="btn">Calculate</button>
+        </div>
+        <div class="box2">
+            <h6>Invested Amount : <p id="amountI">0 ₹</p>
+            </h6>
+            <h6>Total Value : <p id="futureValue">0 ₹</p>
+            </h6>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
